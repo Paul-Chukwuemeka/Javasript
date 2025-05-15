@@ -2,7 +2,7 @@
 
 A brief description of your project.
 
-![Project Banner](picsum.photos/600/600)
+![Project Banner](https://picsum.photos/600/600)
 
 
 ## Table of Contents
