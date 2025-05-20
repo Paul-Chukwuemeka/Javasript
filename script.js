@@ -302,9 +302,6 @@
 // // // // console.log(typeof (20 / "20"), 20 / "20")
 // // // // console.log(typeof (20 - "20"), 20 - "20")
 
-
-
-
 // // // // explicit type conversion
 
 // // // // to string
@@ -314,19 +311,15 @@
 // // // let numtostr = String(test)
 // // // console.log(numtostr)
 
-
 // // // //to boolean
 
 // // // console.log(Boolean("9"))
 // // // console.log(Boolean(0))
 
-
 // // // //to number
 
 // // // console.log(Number(true))
 // // // console.log(Number(false))
-
-
 
 // // // if...else
 
@@ -340,9 +333,7 @@
 // //     console.log("a is not greater than c")
 // // }
 
-
 // // Assignment
-
 
 // //  let myName = "Jumoke"
 // //  console.log(myName)
@@ -358,14 +349,11 @@
 
 // // console.log(number + number2)
 
-
 // // let celcius = 100
 
 // // let fahrenheit = (celcius * 9/5) + 32
 
 // // console.log(fahrenheit)
-
-
 
 // // value1 = 10
 // // value2 = 20
@@ -374,20 +362,14 @@
 
 // // console.log(value1,value2)
 
-
-
 // // console.log(10 + (100 * 5,0))
-
-
 
 // //for  loop
 // // while loop
 // //do...while loop
 // //for..in loop
 
-
 // //for loop
-
 
 // // for(i = 0;i < 100;i++){
 // //     console.log(i)
@@ -397,7 +379,6 @@
 // //     console.log(i)
 // // }
 
-
 // // let i = 0
 
 // // // while(i < 100){
@@ -405,13 +386,11 @@
 // // //     i++
 // // // }
 
-
 // // do{
 // //    console.log(i)
 // //     i++
 // // }
 // // while(i < 100)
-
 
 // // for(a=0;a<=10;a++){
 // //     console.log(a)
@@ -453,7 +432,6 @@
 
 // console.log(count)
 
-
 // // functions
 
 // // function declaration
@@ -461,7 +439,6 @@
 // function runAlert(){
 //     alert("Good morning,Nigeria")
 // }
-
 
 // runAlert()
 
@@ -480,10 +457,56 @@
 
 // myArrow()
 
+// function test(a){
+//     console.log(a)
+// }
+
+// test(23)
+
+// function countVowels(str) {
+//   let numOfVowels = 0;
+//   str = str.split("");
+// console.log(str)
+//   str.map((letter) => {
+//     if (
+//       letter == "a" ||
+//       letter == "e" ||
+//       letter == "i" ||
+//       letter == "o" ||
+//       letter == "u"
+//     ) {
+//       numOfVowels = numOfVowels + 1;
+//     }
+//   });
+//   console.log(numOfVowels)
+// }
+
+// countVowels("hello world");
 
 
-function test(a){
-    console.log(a)
+// functions
+
+// reusable block of code 
+
+
+//function declaration
+
+function test(){
+    alert("hello world")
 }
 
-test(23)
+// function expression
+
+const work = function(){
+    alert("I am anonymous")
+}
+work()
+
+//arrow function
+
+
+const greet = () =>{
+    
+}
+
+
