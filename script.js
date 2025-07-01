@@ -491,22 +491,75 @@
 
 //function declaration
 
-function test(){
-    alert("hello world")
-}
+// function test(){
+//     alert("hello world")
+// }
 
 // function expression
 
-const work = function(){
-    alert("I am anonymous")
-}
-work()
+// const work = function(){
+//     alert("I am anonymous")
+// }
+// work()
 
 //arrow function
 
 
-const greet = () =>{
-    
+// const greet = () =>{
+//     alert("hey there")
+// }
+// greet()
+
+
+
+
+
+// arguments and parameters
+
+// function yenogoa(name = "Jumoke",age){ // name is parameter
+//     console.log("Hello " + name+ " your age is " + age)
+// }
+
+
+// yenogoa(20,"Tinuke") //"Tinuke" is an argument
+// yenogoa("Ibukunle",40) //"Tinuke" is an argument
+
+// yenogoa()
+
+
+// const test = (age)=>{
+//     console.log(age)
+// }
+
+// test(30)
+
+
+// higher order function - callback function
+
+// const play = (func) =>{
+//     func("This is Maggic")
+// }
+
+// function test(str){
+//     alert(str)
+// }
+
+
+// play(test)
+
+
+// function test(a,b){
+//     return a * b
+// }
+// console.log(test(40,50))
+// const answer  = test(400,50)
+// console.log(answer)
+
+//hoist
+test()
+
+function test(){
+    console.log("hoist")
 }
 
-
+// implicit return
